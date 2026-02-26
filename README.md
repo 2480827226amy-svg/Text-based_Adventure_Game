@@ -1,18 +1,13 @@
-# CSC120-FinalProject
+# Text-based Adventure Game
 
-## Deliverables:
- - Your final codebase
- - Your revised annotated architecture diagram
- - Design justification (including a brief discussion of at least one alternative you considered)
- - A map of your game's layout (if applicable)
- - `cheatsheet.md`
- - Completed `rubric.md`
-  
-## Additional Reflection Questions
- - What was your **overall approach** to tackling this project?
- - What **new thing(s)** did you learn / figure out in completing this project?
- - Is there anything that you wish you had **implemented differently**?
- - If you had **unlimited time**, what additional features would you implement?
- - What was the most helpful **piece of feedback** you received while working on your project? Who gave it to you?
- - If you could go back in time and give your past self some **advice** about this project, what hints would you give?
- - _If you worked with a team:_ please comment on how your **team dynamics** influenced your experience working on this project.
+## Overview
+This project is a text-based advencture game built in Java. Players interact with the instructions at the command window to engage with the storyline. 
+
+## Game mechanics
+The goal of this text-based adventure game is to find a missing roommate. The player is presented with a list of available locations on campus and may travel to different places to search for clues. At each location, the player gathers information that helps narrow down where the roommate might have gone.
+
+The player may make a guess about the roommate’s whereabouts at any point during the game. If the guess is correct, the player wins immediately. Otherwise, the player may continue exploring until reaching the maximum number of allowed steps. Once the step limit is reached, the player must make a final guess to conclude the game.
+
+## How to run
+javac *.java
+java Game
